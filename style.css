@@ -1,6 +1,10 @@
 * {
     text-decoration: none;
 }
+body {
+    font-family: 'Expletus Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+}
 h2, h5{
     text-transform: uppercase;
     text-align: center;
@@ -32,4 +36,25 @@ footer .nav-item{
 .oradores img {
     width: auto;
     height: 30em;
+}
+.github {
+    background-color: rgb(13, 26, 32);
+    text-decoration: none;
+    color: rgb(115, 201, 216);
+    text-align: center;
+    font-size: x-large;
+    padding: 0.7em 0;
+    -webkit-transition: font-size 1s ease;
+    transition: background 2s ease;
+    font-family: 'Expletus Sans', cursive;
+}
+.github:hover{
+    background: hsla(33, 100%, 53%, 1);
+    background: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF930F", endColorstr="#FFF95B", GradientType=1 );
+    color: black;
+    transition: background-color 2s ease;
+    font-family: 'Expletus Sans', cursive;
 }
