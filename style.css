@@ -6,12 +6,30 @@ h2, h5{
     text-align: center;
 }
 article{
-    margin: 0 10%;
+    margin: 5%;
+}
+.form {
+    margin: 2% 20%
 }
 footer{
-    background-color: rgb(29, 29, 144);
+    background: hsla(200, 43%, 19%, 1);
+    background: linear-gradient(90deg, hsla(200, 43%, 19%, 1) 0%, hsla(202, 57%, 27%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(200, 43%, 19%, 1) 0%, hsla(202, 57%, 27%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(200, 43%, 19%, 1) 0%, hsla(202, 57%, 27%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1C3846", endColorstr="#1E516E", GradientType=1 );
 }
-.nav-item-footer, footer .nav-item{
+footer .nav-items, .nav-link-light{
+    text-transform: none;
+    text-decoration-style: none;
+
+}
+footer a {
     color: white;
-    text-decoration: none;
+}
+footer .nav-item{
+    margin: 1em 3em;
+}
+.oradores img {
+    width: auto;
+    height: 30em;
 }
