@@ -1,7 +1,17 @@
+* {
+    text-decoration: none;
+}
 h2, h5{
     text-transform: uppercase;
     text-align: center;
 }
 article{
     margin: 0 10%;
+}
+footer{
+    background-color: rgb(29, 29, 144);
+}
+.nav-item-footer, footer .nav-item{
+    color: white;
+    text-decoration: none;
 }
