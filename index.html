@@ -49,6 +49,16 @@
             </div>
         </nav>
     </header>
+    <section class="min-vh-100 d-flex" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/ba1.jpg); background-size: cover;">
+      <div class="container d-flex flex-column align-items-end justify-content-center text-end text-light py-5">
+          <h1 class="display-5 fw-bold">Conf Bs As</h1>
+          <p class="col-md-6 fs-5">Bs As llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de nuestros expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenempos para ti. Te esperamos!</p>
+          <div>
+              <button class="btn btn-outline-light btn-lg m-2" type="button">Quiero ser orador</button>
+              <button class="btn btn-lg text-light m-2" id="tickets" type="button">Comprar tickets</button>
+          </div>
+      </div>
+  </section>
     <article class="oradores">
         <h5>Conoce a los</h5>
         <h2>Oradores</h2>
@@ -82,43 +92,34 @@
             </div>
           </div>
     </article>
-    <article>
-        <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="img\hawaii.jpg" class="img-fluid rounded-start" alt="Hawaii - playa paradisiaca">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Bs. As. - Octubre</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem vitae autem non impedit officiis eveniet ipsa ullam cum porro rerum sed veritatis vel tempore, soluta aliquid consequatur quis odit perspiciatis!</p>
-                  
-                </div>
-              </div>
-            </div>
+    <section id="lugar" class="container-fluid m-0">
+      <div class="row">
+          <img src="img/honolulu.jpg" class="p-0 col-12 col-lg-6 border border-white" alt="Honolulu">
+          <div class="col-12 col-lg-6 bg-dark text-light p-3 border border-white">
+              <h1 class="display-6 fw-bold">Bs As - Octubre</h1>
+              <p class="mb-3" style="font-size: 1.1rem;">Buenos Aires es la provincia y localidad más grande del estado Argentino, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km² de superficie).</p>
+              <button class="btn btn-outline-light btn-md mb-2" type="button">Conoce más</button>
           </div>
-    </article>
+      </div>
+  </section>
     <article class="form">
       <form>
         <div class="form-floating mb-3">
           <div class="row">
             <div class="col">
-              <label for="exampleInputPassword1" class="form-label" id="floatingInput">Nombre</label>
               <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
             </div>
             <div class="col">
-              <label for="exampleInputPassword1" class="form-label" id="floatingInput">Apellido</label>
               <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
             </div>
           </div>
         </div>
         <div class="form-floating mb-3">
-          <label for="exampleInputPassword1" class="form-label" id="floatingInput">Apellido</label>
-          <textarea class="form-control" id="floatingTextarea" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
+          <textarea class="form-control" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
           <p>Recuerde incluir un título para tu charla.</p>
         </div>
         <div class="d-grid gap-2">
-          <button type="submit" class="btn btn-success">Enviar</button>
+          <button type="submit" class="btn btn-success" id="enviar">Enviar</button>
         </div>
       </form>
     </article>
