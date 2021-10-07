@@ -12,6 +12,9 @@ h2, h5{
 article{
     margin: 0 10%;
 }
+.nav-link{
+    justify-items: center;
+}
 .oradores img {
     width: auto;
     height: 20em;
