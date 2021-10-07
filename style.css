@@ -1,0 +1,83 @@
+* {
+    text-decoration: none;
+}
+body {
+    font-family: 'Expletus Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+h2, h5{
+    text-transform: uppercase;
+    text-align: center;
+}
+article{
+    margin: 0 10%;
+}
+.nav-link{
+    justify-items: center;
+    text-align: center;
+}
+.oradores img {
+    width: auto;
+    height: 20em;
+}
+.card-group{
+    margin: 0 5%
+}
+.card {
+    margin: 2em;
+}
+.form{
+    margin-bottom: 1.5em;
+    margin:1em 20%;
+}
+/* p{
+    text-align: center;
+} */
+#enviar{
+    background: #96c93e;
+    border-color: #96c93e;
+}
+#tickets{
+    background-color: #29a744;
+}
+footer{
+    background: rgb(28,55,70);
+    background: linear-gradient(90deg, rgba(28,55,70,1) 0%, rgba(29,82,113,1) 100%);
+    justify-content: center;
+}
+footer .nav-items, footer .nav-link-light{
+    text-transform: none;
+    text-decoration-style: none;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+}
+footer a {
+    color: white;
+    justify-content: center;
+}
+footer .nav-item{
+    margin: 1em 3em;
+}
+.github {
+    background-color: rgb(13, 26, 32);
+    color: rgb(115, 201, 216);
+    text-align: center;
+    font-size:larger;
+    padding: 0.6em 0;
+    -webkit-transition: font-size 1s ease;
+    transition: background 2s ease;
+    font-family: 'Expletus Sans', cursive;
+    text-decoration: none;
+}
+.github:hover {
+    background: hsla(33, 100%, 53%, 1);
+    background: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF930F", endColorstr="#FFF95B", GradientType=1 );
+    color: black;
+    transition: background-color 2s ease;
+    font-family: 'Expletus Sans', cursive;
+    text-decoration: none;
+}
