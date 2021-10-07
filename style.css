@@ -25,8 +25,15 @@ article{
 .form{
     margin-bottom: 1.5em;
 }
-#enviar, #tickets{
-    background: #29a744;
+p{
+    text-align: center;
+}
+#enviar{
+    background: #96c93e;
+    border-color: #96c93e;
+}
+#tickets{
+    background-color: #29a744;
 }
 footer{
     background: hsla(200, 43%, 19%, 1);
