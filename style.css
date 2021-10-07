@@ -14,6 +14,7 @@ article{
 }
 .nav-link{
     justify-items: center;
+    text-align: start;
 }
 .oradores img {
     width: auto;
