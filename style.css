@@ -14,7 +14,7 @@ article{
 }
 .nav-link{
     justify-items: center;
-    text-align: start;
+    text-align: center;
 }
 .oradores img {
     width: auto;
@@ -28,10 +28,11 @@ article{
 }
 .form{
     margin-bottom: 1.5em;
+    margin:1em 20%;
 }
-p{
+/* p{
     text-align: center;
-}
+} */
 #enviar{
     background: #96c93e;
     border-color: #96c93e;
@@ -40,33 +41,34 @@ p{
     background-color: #29a744;
 }
 footer{
-    background: hsla(200, 43%, 19%, 1);
-    background: linear-gradient(90deg, hsla(200, 43%, 19%, 1) 0%, hsla(202, 57%, 27%, 1) 100%);
-    background: -moz-linear-gradient(90deg, hsla(200, 43%, 19%, 1) 0%, hsla(202, 57%, 27%, 1) 100%);
-    background: -webkit-linear-gradient(90deg, hsla(200, 43%, 19%, 1) 0%, hsla(202, 57%, 27%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1C3846", endColorstr="#1E516E", GradientType=1 );
+    background: rgb(28,55,70);
+    background: linear-gradient(90deg, rgba(28,55,70,1) 0%, rgba(29,82,113,1) 100%);
+    justify-content: center;
 }
-footer .nav-items, .nav-link-light{
+footer .nav-items, footer .nav-link-light{
     text-transform: none;
     text-decoration-style: none;
     text-align: center;
+    text-decoration: none;
+    justify-content: center;
 }
 footer a {
     color: white;
+    justify-content: center;
 }
 footer .nav-item{
     margin: 1em 3em;
 }
 .github {
     background-color: rgb(13, 26, 32);
-    text-decoration: none;
     color: rgb(115, 201, 216);
     text-align: center;
-    font-size: x-large;
-    padding: 0.7em 0;
+    font-size:larger;
+    padding: 0.6em 0;
     -webkit-transition: font-size 1s ease;
     transition: background 2s ease;
     font-family: 'Expletus Sans', cursive;
+    text-decoration: none;
 }
 .github:hover {
     background: hsla(33, 100%, 53%, 1);
@@ -77,4 +79,5 @@ footer .nav-item{
     color: black;
     transition: background-color 2s ease;
     font-family: 'Expletus Sans', cursive;
+    text-decoration: none;
 }
