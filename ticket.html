@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conf Bs As</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!-- Otros links -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@500&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="categorias">
+        <div class="azul">
+            <h4>Estudiante</h4>
+            <p>Tiene un descuento</p><br>
+            <b>80%</b><br>
+            <p>* presentar documentación</p>
+        </div>
+        <div class="verde">
+            <h4>Trainee</h4>
+            <p>Tiene un descuento</p><br>
+            <b>50%</b><br>
+            <p>* presentar documentación</p>
+        </div>
+        <div class="amarillo">
+            <h4>Junior</h4>
+            <p>Tiene un descuento</p><br>
+            <b>15%</b><br>
+            <p>* presentar documentación</p>
+        </div>
+    </div><br>
+    <div>
+        <form>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Nombre">
+                <input type="text" class="form-control" placeholder="Apellido">
+            </div>
+            <input type="text" class="form-control" placeholder="Correo">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="cantidad" placeholder="cantidad">
+                <select name="nivel" id="nivel" class="form-selec">
+                    <option value="estudiante" id="estudiante">Estudiante</option>
+                    <option value="trainee" id="trainee">Trainee</option>
+                    <option value="junior" id="junior">Junior</option>
+                </select><br>    
+            </div>
+            <div class="rdo" id="rdo"></div>
+            <div class="input-group mb-3">
+                <button onClick="borrarRdo()" class="form-control button1">Borrar</button><br>
+                <button onClick="entregarRdo()" class="form-control  button2">Resumen</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <ul  class="nav justify-content-center">
+            <li class="nav-item">
+            <a href="#" class="nav-link-light">Preguntas<br>Frecuentes</a>
+            </li>
+            <li class="nav-item">
+            <a href="#" class="nav-link-light">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+            <a href="#" class="nav-link-light">Prensa</a>
+            </li>
+            <li class="nav-item">
+            <a href="#" class="nav-link-light">Conferencias</a>
+            </li>
+            <li class="nav-item">
+            <a href="#" class="nav-link-light">Terminos y<br>condiciones</a>
+            </li>
+            <li class="nav-item">
+            <a href="#" class="nav-link-light">Privacidad</a>
+            </li>
+            <li class="nav-item">
+            <a href="#" class="nav-link-light">Estudiantes</a>
+            </li>
+        </ul>
+        </footer>
+        <div class="github">
+        <a href="https://github.com/MeneghiniOrnella/tpi" target="_blank">Página creada por Cecilia Ornella Meneghini <i class="fab fa-github"></i></a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+        <!-- JS -->
+        <script src="script.js"></script>
+    </body>
+</html>
